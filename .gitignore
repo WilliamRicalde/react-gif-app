@@ -25,4 +25,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/src/tests/components/__snapshots__
+/src/tests/components/__snapshots__/

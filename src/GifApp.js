@@ -2,10 +2,10 @@ import { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-function GifApp() {
+function GifApp({ defaultCategories = [] }) {
    
-    const [categories, setCategories] = useState([ 'Pacific Rim' ])
-
+   //const [categories, setCategories] = useState([ 'Pacific Rim' ])
+    const [categories, setCategories] = useState( defaultCategories )
     
 
     return (
